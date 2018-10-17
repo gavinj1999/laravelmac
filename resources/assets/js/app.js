@@ -5,6 +5,7 @@ import Vue from 'vue'
 
   import App from './views/App'
   import Welcome from './views/Welcome'
+  import About from './views/About'
 
   const router = new VueRouter({
       mode: 'history',

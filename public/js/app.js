@@ -419,10 +419,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__views_App___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__views_App__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__views_Welcome__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__views_Welcome___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__views_Welcome__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__views_About__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__views_About___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__views_About__);
 
 
 
 __WEBPACK_IMPORTED_MODULE_0_vue___default.a.use(__WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]);
+
 
 
 
@@ -436,7 +439,7 @@ var router = new __WEBPACK_IMPORTED_MODULE_1_vue_router__["a" /* default */]({
     }, {
         path: '/about',
         name: 'about',
-        component: About
+        component: __WEBPACK_IMPORTED_MODULE_4__views_About___default.a
     }]
 });
 
@@ -14382,6 +14385,26 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({});
 
@@ -14393,34 +14416,61 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    _c(
-      "nav",
-      { staticClass: "navbar navbar-expand-md navbar-light navbar-laravel" },
-      [
-        _c(
-          "div",
-          { staticClass: "container" },
-          [
-            _c(
-              "router-link",
-              { staticClass: "navbar-brand", attrs: { to: { name: "home" } } },
-              [_vm._v("Treclon")]
-            ),
-            _vm._v(" "),
-            _vm._m(0),
-            _vm._v(" "),
-            _vm._m(1)
-          ],
-          1
-        )
-      ]
-    ),
+  return _c("body", [
+    _vm._m(0),
     _vm._v(" "),
-    _c("main", { staticClass: "py-4" }, [_c("router-view")], 1)
+    _c("div", [
+      _c(
+        "nav",
+        { staticClass: "navbar navbar-expand-md navbar-light navbar-laravel" },
+        [
+          _c(
+            "div",
+            { staticClass: "container" },
+            [
+              _c(
+                "router-link",
+                {
+                  staticClass: "navbar-brand",
+                  attrs: { to: { name: "home" } }
+                },
+                [_vm._v("Treclon")]
+              ),
+              _vm._v(" "),
+              _vm._m(1),
+              _vm._v(" "),
+              _vm._m(2)
+            ],
+            1
+          )
+        ]
+      ),
+      _vm._v(" "),
+      _c("main", { staticClass: "py-4" }, [_c("router-view")], 1)
+    ])
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-md-4" }, [
+          _vm._v("\n        item\n      ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _vm._v("\n        item\n      ")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-md-4" }, [
+          _vm._v("\n        item\n      ")
+        ])
+      ])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -15008,6 +15058,102 @@ if (false) {
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 30 */,
+/* 31 */,
+/* 32 */,
+/* 33 */,
+/* 34 */,
+/* 35 */,
+/* 36 */,
+/* 37 */,
+/* 38 */,
+/* 39 */,
+/* 40 */,
+/* 41 */,
+/* 42 */,
+/* 43 */,
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */,
+/* 48 */,
+/* 49 */,
+/* 50 */,
+/* 51 */,
+/* 52 */,
+/* 53 */,
+/* 54 */,
+/* 55 */,
+/* 56 */,
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(4)
+/* script */
+var __vue_script__ = null
+/* template */
+var __vue_template__ = __webpack_require__(58)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources/assets/js/views/About.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-49c1ab4a", Component.options)
+  } else {
+    hotAPI.reload("data-v-49c1ab4a", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _vm._v("\n  this is a test\n")
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-49c1ab4a", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

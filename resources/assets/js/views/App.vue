@@ -1,4 +1,23 @@
 <template>
+<body>
+
+
+    <div class="container">
+      <div class="row">
+
+
+      <div class="col-md-4">
+        item
+      </div>
+      <div class="col-md-4">
+        item
+      </div>
+      <div class="col-md-4">
+        item
+      </div>
+      </div>
+    </div>
+
     <div>
         <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
             <div class="container">
@@ -21,6 +40,7 @@
             <router-view></router-view>
         </main>
     </div>
+    </body>
 </template>
 <script>
 export default {}
